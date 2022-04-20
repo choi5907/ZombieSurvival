@@ -658,12 +658,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7686a34f3902a1d43b76d8af961e9657, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shortClip: {fileID: 0}
-  reloadClip: {fileID: 0}
-  damage: 25
-  magCapacity: 25
-  itmeBeFire: 0.12
-  reloadTime: 1.8
+  fireTransform: {fileID: 4959168996130380}
+  muzzleFlashEffect: {fileID: 198000012098323402}
+  shellEjectEffect: {fileID: 198000010384531008}
+  gunData: {fileID: 11400000, guid: bdc046c64dd16704ebb9956c8592fe60, type: 2}
+  ammoRemain: 100
+  magAmmo: 0
 --- !u!1 &1871168162219632
 GameObject:
   m_ObjectHideFlags: 0
@@ -799,6 +799,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000011175361746, guid: 8e60b325a019543cbb2e3920522a2e6b, type: 3}
   m_PrefabInstance: {fileID: 286784622}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &198000010384531008 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198000010131513902, guid: 8e60b325a019543cbb2e3920522a2e6b, type: 3}
+  m_PrefabInstance: {fileID: 286784622}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &934306682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -863,5 +868,10 @@ PrefabInstance:
 --- !u!4 &4000010550940352 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011227296186, guid: 74d744994bc414c37bfda957f1d57118, type: 3}
+  m_PrefabInstance: {fileID: 934306682}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &198000012098323402 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198000012944515248, guid: 74d744994bc414c37bfda957f1d57118, type: 3}
   m_PrefabInstance: {fileID: 934306682}
   m_PrefabAsset: {fileID: 0}
