@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Console
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 82
+  controlID: 83
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 83
+  controlID: 84
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 62
+  controlID: 162
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 192}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 147
+  controlID: 156
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -711,9 +711,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.2908817, y: 0.8780891, z: 0.08240083}
+    m_Target: {x: -0.36736357, y: 1.4729717, z: 1.175892}
     speed: 2
-    m_Value: {x: -0.2908817, y: 0.8780891, z: 0.08240083}
+    m_Value: {x: -0.36736357, y: 1.4729717, z: 1.175892}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -760,13 +760,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.008469458, y: 0.81704676, z: 0.0120037915, w: -0.5763979}
+    m_Target: {x: 0.18108653, y: -0.67059094, z: 0.17394798, w: 0.69807017}
     speed: 2
-    m_Value: {x: 0.008469391, y: 0.8170403, z: 0.012003697, w: -0.57639337}
+    m_Value: {x: 0.18029448, y: -0.669788, z: 0.17266776, w: 0.699331}
   m_Size:
-    m_Target: 0.63116235
+    m_Target: 1.0923096
     speed: 2
-    m_Value: 0.63116235
+    m_Value: 1.0452724
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -871,14 +871,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.8808376
+    - e00: 0.996569
       e01: 0
       e02: 0
-      e03: 225.82861
+      e03: 120.53732
       e10: 0
-      e11: 0.8808376
+      e11: 0.996569
       e12: 0
-      e13: 214.6667
+      e13: 250.6124
       e20: 0
       e21: 0
       e22: 1
@@ -931,9 +931,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 42fbffff
+      m_SelectedIDs: acf8ffff
+      m_LastClickedID: -1876
+      m_ExpandedIDs: acf8fffff2f8ffff3afbffff44fbffffe83f0000ee3f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -995,22 +995,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/00.ScriptableData
+    - Assets/02.Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/00.ScriptableData
+  - Assets/02.Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\GitHub\ZombieSurvival\Zombie
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 36440000
-    m_LastClickedID: 17462
-    m_ExpandedIDs: 000000001c4400001e4400002044000000ca9a3b
+    m_SelectedIDs: 40440000
+    m_LastClickedID: 17472
+    m_ExpandedIDs: 0000000022440000244400002644000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1038,7 +1038,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001c4400001e44000020440000
+    m_ExpandedIDs: 00000000224400002444000026440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1066,21 +1066,21 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 5a43000000170000984300009643000010edffffac5e00005a44000080460000824600005844000018ad0000e0450000de430000000000006e4300009a4300000a82ffff
+    m_ExpandedInstanceIDs: 5a43000000170000984300009643000010edffffac5e00005a44000080460000824600005844000018ad0000e0450000de430000000000006e4300009a4300000a82ffffce400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: PlayerShooter
+      m_OriginalName: PlayerShooter
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 17516
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
