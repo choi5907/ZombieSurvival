@@ -1,11 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 // 플레이어 캐릭터를 조작하기 위한 사용자 입력을 감지
 // 감지된 입력값을 다른 컴포넌트가 사용할 수 있도록 제공
 public class PlayerInput : MonoBehaviour
 {
+    // inputManager에 접근하여 "이름"값을 변수에 입력
     public string moveAxisName = "Vertical" ; // 앞뒤 움직임을 위한 입력축 이름
     public string rotateAxisName = "Horizontal"; // 좌우 회전을 위한 입력축 이름
     public string fireButtonName = "Fire1"; // 발사를 위한 입력 버튼 이름

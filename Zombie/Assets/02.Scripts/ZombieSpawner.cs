@@ -61,7 +61,7 @@ public class ZombieSpawner : MonoBehaviour
         // 좀비 프리팹으로부터 좀비 생성
         Zombie zombie = Instantiate(zombiePrefab, spawnPoint.position, spawnPoint.rotation);
 
-        // 생성한 좀비의 능력치 설정
+        // 생성한 좀비의 능력치 설정 > 만들어 둔 스크립터블 zombieData를 정했고 Setup으로 해당 능력치 적용
         zombie.Setup(zombieData);
 
         // 생성된 좀비를 리스트에 추가
